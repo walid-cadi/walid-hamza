@@ -1,3 +1,72 @@
+.navbar {
+  width: 50vw;
+  margin: auto;
+  margin-bottom: 10vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.array {
+  font-size: x-large;
+  font-weight: bolder;
+  color: blueviolet;
+  cursor: pointer;
+}
+.links-btn {
+  display: flex;
+  align-items: center;
+}
+.links {
+  margin-right: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 5px;
+}
+.btn button {
+  width: 6vw;
+  padding: 7px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border-color: white;
+  border-radius: 7px;
+  font-weight: bolder;
+}
+.sect1 {
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+.img1 {
+  margin-bottom: 3vh;
+}
+.pargh1 h2 {
+  margin-bottom: 3vh;
+}
+.pargh1 p {
+  margin-bottom: 3vh;
+  color: gray;
+}
+
+.btn1 button {
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border-color: white;
+  border-radius: 7px;
+  font-weight: bolder;
+  width: 15vw;
+}
+.imgs1 {
+  margin-top: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 .sect3 {
   padding: 50px;
   width: 50vw;
