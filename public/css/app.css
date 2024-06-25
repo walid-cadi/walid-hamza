@@ -1,0 +1,44 @@
+.sect3 {
+  padding: 50px;
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+.sect3 p {
+  color: gray;
+  margin: 5vh 0vh;
+}
+.card-img1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5vh;
+}
+.card-pargh3 {
+  width: 25vw;
+  text-align: start;
+}
+
+@media (max-width: 428px) {
+  .sect3 {
+    padding: 0;
+    width: 0;
+    width: 100vw;
+    text-align: center;
+  }
+  .sect3 img {
+    width: 350px;
+  }
+  .sect3 p {
+    color: gray;
+    margin: 0px;
+  }
+  .card-img1 {
+    flex-direction: column;
+    margin-bottom: 5vh;
+  }
+  .card-pargh3 {
+    width: 100vw;
+    text-align: center;
+  }
+}
